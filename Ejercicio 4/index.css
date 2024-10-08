@@ -1,7 +1,26 @@
-body {
-    background-color: aliceblue;
+div {
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
 }
 
 h1 {
-    color:blueviolet;
+    color:red;
+}
+
+h2 {
+    color: blue;
+}
+
+#T2 {
+    color: green;
+}
+
+#D1 {
+    border-style: groove;
+    border-color: white;
+}
+
+#D2 {
+    border-style: double;
 }
