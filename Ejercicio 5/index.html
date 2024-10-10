@@ -4,98 +4,44 @@
         <meta charset="UTF-8">
         <meta name="description" content="Ejercicio HTML - Estilo con etiquetas">
         <title>Ejercicio 05 relación HTML</title>
-        <style>
-            body{
-                font-family: Arial, sans-serif;
-                background-color: white;
-                color: 333;
-            }
-
-            h1{
-                font-size: 24px;
-                color: #003366;
-            }
-
-            h2 {
-                font-size: 20px;
-                color:#006699;
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            blockquote {
-                font-size: 18px;
-                color: #444;
-                background-color: #e0f7fa;
-            }
-
-            abbr {
-                color: #d32f2f;
-            }
-
-            cite {
-                font-style: italic;
-                color: #d32f2f;
-            }
-
-            address {
-                font-size: 16px;
-                background-color: #e0f7fa;
-            }
-
-            a {
-                color: #00796b;
-            }
-
-            bdo {
-                color: #00796b;
-            }
-
-            #bd2 {
-                color: #d32f2f;
-            }
-
-        </style>
     </head>
 
-    <body>
-        <h1>Ejemplo de uso de etiquetas de HTML</h1>
-        <h2>Blockquote y Q</h2>
+    <body style="background-color: white; font-family: Arial, sans-serif; color: 333;">
+        <h1 style="font-size: 24px; color: #003366;">Ejemplo de uso de etiquetas de HTML</h1>
+        <h2 style="font-size: 20px; color: #006699;">Blockquote y Q</h2>
 
-        <blockquote><q>La imaginación es más importante que el conocimiento.</q></blockquote>
+        <blockquote style="font-size: 18px; color: #444; background-color: #e0f7fa;"><q>La imaginación es más importante que el conocimiento.</q></blockquote>
 
-        <p>
-            Esta es una famosa cita de Albert Einstein, mencionada en <cite>Wikiquote</cite>:
+        <p style="font-size: 16px;">
+            Esta es una famosa cita de Albert Einstein, mencionada en <cite style="font-style: italic; color: #d32f2f;">Wikiquote</cite>:
         </p>
         
-        <p>
-            Como dijo él: <a><q>La imaginación es más importante que el conocimiento</q></a>.
+        <p style="font-size: 16px;">
+            Como dijo él: <a style="color: #00796b;"><q>La imaginación es más importante que el conocimiento</q></a>.
         </a>
         </p>
 
-        <h2>Abbr</h2>
+        <h2 style="font-size: 20px; color: #006699;">Abbr</h2>
 
-        <p>Las siglas de <abbr title="Hypertext Markup Language">HTML</abbr>  significan Lenguaje de Marcado de Hipertexto.</p>
+        <p style="font-size: 16px;">Las siglas de <abbr style="color: #d32f2f;" title="Hypertext Markup Language">HTML</abbr>  significan Lenguaje de Marcado de Hipertexto.</p>
 
-        <h2>Address</h2>
+        <h2 style="font-size: 20px; color: #006699;">Address</h2>
 
-        <address>
+        <address style="font-size: 16px; background-color: #e0f7fa;">
         Puedes contactarnos en:<br>
-        <a href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
+        <a style="color: #00796b;" href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
         Calle Falsa 123, Ciudad, País
         </address>
         
 
-        <h2>Bdo</h2>
+        <h2 style="font-size: 20px; color: #006699;">Bdo</h2>
 
-        <p>
-            Este texto se mostrará en orden normal: <bdo dir="ltr">derecha a izquierda</bdo>.
+        <p style="font-size: 16px;">
+            Este texto se mostrará en orden normal: <bdo style="color: #00796b;" dir="ltr">derecha a izquierda</bdo>.
         </p>
 
-        <p>
-            Este texto se mostrará en orden invertido: <bdo dir="rtl" id="bd2">derecha a izquierda</bdo>.
+        <p style="font-size: 16px;">
+            Este texto se mostrará en orden invertido: <bdo style="color: #d32f2f;" dir="rtl" id="bd2">derecha a izquierda</bdo>.
         </p>
     </body>
 </html>
