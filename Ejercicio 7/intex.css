@@ -18,14 +18,26 @@ ul {
     color: red;
 }
 
-ul li {
+#ul_2nivel {
     color: green;
 }
 
 img {
-    width: 80px;
+    width: 100px;
+    height: 40px;
 }
+
 p img {
     border: solid, 5px, black;
 }
 
+[alt="segunda"] {
+    border: solid, 5px, red;
+}
+
+
+div {
+    display: flex;
+    padding: 10px;
+    align-items: baseline;
+}
