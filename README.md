@@ -107,3 +107,50 @@ No crearás un archivo CSS aparte.
 <center>
 <img src="/Ejercicio_img/ejercicio5_texto.png">
 </center>
+
+## Ejercicio 6:
+Crea la siguiente página web con los ficheros “queen.html” y “estilos.css”, teniendo en cuenta las siguientes indicaciones:
+
+- Todos los estilos están especificados en el archivo “estilos.css”.
+- La familia de fuente utilizada en todo el documento deberá ser "Times New Roman" Times, serif.
+- El tamaño de la imagen es 400 x 200 píxeles.
+- El borde de la tabla es de 1px y color negro.
+- El espacio entre en contenido de las celdas de la tabla y su borde es 10px.
+- El enlace al sitio web oficial de Queen debe abrirse en una pestaña nueva.
+
+Todas las imágenes necesarias se encuentran en la plataforma Moodle.
+
+Todas las imágenes deberán tener su texto alternativo.
+
+En la tabla siguiente se indican colores y tamaños de diferentes elementos mostrados en la página web:
+
+<center>
+<img src="/Ejercicio_img/ejercicio6_texto.png" style="width:300px">
+</center>
+
+Los colores de fondo de la tabla son:
+
+<center>
+<img src="/Ejercicio_img/ejercicio7_texto.png" style="width:400px">
+<img src="/Ejercicio_img/ejercicio8_texto.png" style="width:400px">
+</center>
+
+## Ejercicio 7:
+Realiza la web que se muestra en la imagen de abajo teniendo en cuenta las siguientes restricciones del css.
+
+- Todos los elementos tendrán la fuente “Courier New, Courier, monospace.
+- El primer párrafo deberá de tener un identificador y su color de fondo será gris.
+- Hay dos tipos de h1: normal y especial. Los h1 especial deberán de pertenecer a la clase “especial” y su color será azul.
+- Tanto los h2 como los h3 tendrán un borde sólido de 1px de color naranja.
+- Los elementos del primer nivel de una lista serán de color rojo.
+- Los elementos del segundo nivel de una lista serán de color verde.
+- Las imágenes que sean hijas directas de la etiqueta p tendrán un borde sólido de 5px de color negro.
+- Las imágenes cuya descripción alternativa sea “segunda” tendrán un borde sólido de 5px de color rojo.
+- Los encabezados h3 que están justo antes de un párrafo tendrán un color de fondo rosa.
+- Los encabezados h3 que están justo después de un párrafo tendrán un color de fondo azul.
+
+Los estilos deberán de definirse en un fichero .css
+
+<center>
+<img src="/Ejercicio_img/ejercicio9_texto.png" style="width:600px">
+</center>
