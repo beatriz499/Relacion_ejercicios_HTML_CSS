@@ -154,3 +154,96 @@ Los estilos deberán de definirse en un fichero .css
 <center>
 <img src="/Ejercicio_img/ejercicio9_texto.png" style="width:600px">
 </center>
+
+## Ejercicio 8:
+Realiza la web que se muestra a continuación teniendo en cuenta las siguientes restricciones CSS:
+
+- **body**:
+    - Color de fondo: #eeeeee
+    - Color: negro;
+    - Alineación de texto: Justificado
+    - Fuente: Sans-serif
+- **h1**:
+    - Color: #333333
+    - Tamaño de fuente: 200%
+    - Centrado
+    - Texto en mayúsculas
+- **h2**:
+    - Color de fondo: #888888
+    - Color: rojo
+    - Tamaño de fuente: 150%
+    - Primera letra de cada palabra en mayúsculas
+- **h3*:
+    - Color de fondo: #aaaaaa
+    - Color: Magenta oscuro
+    - Tamaño de fuente: 130%
+- **p**:
+    - Color de fondo: #cccccc
+    - Altura de línea: 150%
+- **address**:
+    - Color de fondo: blanco
+    - Estilo de fuente: normal
+    - Alineación del texto: derecha
+- **em**:
+    - Color: azul
+    - Estilo de fuente: normal
+    - Añadir negrita
+    - Añadir subrayado
+- **strong**:
+    - Color: verde
+    - Estilo de fuente: normal
+    - Eliminar negrita
+
+<center>
+<img src="/Ejercicio_img/ejercicio10_texto.png" style="width:600px">
+</center>
+
+## Ejercicio 9:
+Realiza la web que se muestra a continuación teniendo en cuenta las siguientes
+restricciones CSS:
+- **body**
+○ Color de fondo: #267352
+○ Fuente: sans-serif
+○ Tamaño de letra: 1.25rem
+- **h1**
+○ color: blanco
+○ Alineación del texto: izquierda
+○ Sombra: Negra, desplazada 5px abajo, desplazada 5px derecha
+○ Texto en mayúsculas
+- **p**
+○ Texto justificado
+- **p.intro**
+○ borde: 10px, negro y sólido
+○ Radio del borde: 30px
+○ Márgen izquierdo: 25%
+○ Márgen derecho: 25%
+○ Padding: 20px
+○ Color de fondo: blanco
+- **p.estilo-1**
+○ borde: color #802400, 20px sólido
+○ radio del borde superior izquierdo: 20px
+○ radio del borde inferior izquierdo: 20px
+○ margen derecho: 50%
+○ padding: 10px
+○ Color de fondo: #b35733
+○ Color: blanco
+- **p.estilo-2**
+○ borde: color #804800, 15px sólido
+○ radio del borde superior derecho: 15px
+○ radio del borde inferior derecho: 15px
+○ margen izquierdo: 50%
+○ padding: 5px
+○ Color de fondo: #b37b33
+○ Color: blanco
+- **p.estilo-3**
+15
+○ borde: color #3379b3, 5px con guiones (- - - - -)
+○ margen derecho: 25%
+○ margen izquierdo: 25%
+○ padding: 20px
+○ color de fondo: #004680
+○ Color: blanco
+
+<center>
+<img src="/Ejercicio_img/ejercicio11_texto.png" style="width:600px">
+</center>
