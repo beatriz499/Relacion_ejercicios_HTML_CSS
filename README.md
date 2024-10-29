@@ -202,48 +202,102 @@ Realiza la web que se muestra a continuación teniendo en cuenta las siguientes 
 Realiza la web que se muestra a continuación teniendo en cuenta las siguientes
 restricciones CSS:
 - **body**
-○ Color de fondo: #267352
-○ Fuente: sans-serif
-○ Tamaño de letra: 1.25rem
+    - Color de fondo: #267352
+    - Fuente: sans-serif
+    - Tamaño de letra: 1.25rem
 - **h1**
-○ color: blanco
-○ Alineación del texto: izquierda
-○ Sombra: Negra, desplazada 5px abajo, desplazada 5px derecha
-○ Texto en mayúsculas
+    - color: blanco
+    - Alineación del texto: izquierda
+    - Sombra: Negra, desplazada 5px abajo, desplazada 5px derecha
+    - Texto en mayúsculas
 - **p**
-○ Texto justificado
+    - Texto justificado
 - **p.intro**
-○ borde: 10px, negro y sólido
-○ Radio del borde: 30px
-○ Márgen izquierdo: 25%
-○ Márgen derecho: 25%
-○ Padding: 20px
-○ Color de fondo: blanco
+    - borde: 10px, negro y sólido
+    - Radio del borde: 30px
+    - Márgen izquierdo: 25%
+    - Márgen derecho: 25%
+    - Padding: 20px
+    - Color de fondo: blanco
 - **p.estilo-1**
-○ borde: color #802400, 20px sólido
-○ radio del borde superior izquierdo: 20px
-○ radio del borde inferior izquierdo: 20px
-○ margen derecho: 50%
-○ padding: 10px
-○ Color de fondo: #b35733
-○ Color: blanco
+    - borde: color #802400, 20px sólido
+    - radio del borde superior izquierdo: 20px
+    - radio del borde inferior izquierdo: 20px
+    - margen derecho: 50%
+    - padding: 10px
+    - Color de fondo: #b35733
+    - Color: blanco
 - **p.estilo-2**
-○ borde: color #804800, 15px sólido
-○ radio del borde superior derecho: 15px
-○ radio del borde inferior derecho: 15px
-○ margen izquierdo: 50%
-○ padding: 5px
-○ Color de fondo: #b37b33
-○ Color: blanco
+    - borde: color #804800, 15px sólido
+    - radio del borde superior derecho: 15px
+    - radio del borde inferior derecho: 15px
+    - margen izquierdo: 50%
+    - padding: 5px
+    - Color de fondo: #b37b33
+    - Color: blanco
 - **p.estilo-3**
-15
-○ borde: color #3379b3, 5px con guiones (- - - - -)
-○ margen derecho: 25%
-○ margen izquierdo: 25%
-○ padding: 20px
-○ color de fondo: #004680
-○ Color: blanco
+    - borde: color #3379b3, 5px con guiones (- - - - -)
+    - margen derecho: 25%
+    - margen izquierdo: 25%
+    - padding: 20px
+    - color de fondo: #004680
+    - Color: blanco
 
 <center>
 <img src="/Ejercicio_img/ejercicio11_texto.png" style="width:600px">
+</center>
+
+## Ejercicio 10:
+
+**Etiquetas**
+- Una etiqueta de sección < h1> para el título.
+- Varias etiquetas de párrafo < p>, una para cada cita.
+- El nombre del escritor en el primer párrafo lleva la etiqueta < strong>.
+- Los nombres de las obras se ven en cursiva. Podrían utilizarse etiquetas < em>, pero para este tipo de información es más adecuado el uso de la etiqueta < cite>, que
+también se ve en cursiva cuando no se aplica ninguna hoja de estilo.
+
+**Clases**
+En total, se necesitan tres clases de párrafo < p>:
+- Clase intro: el párrafo de introducción, que tienen un margen izquierdo y derecho
+mayor que el resto.
+- Clase latin: los párrafos en latín, que aparecen a la izquierda.
+- Clase espanol: los párrafos en español, que aparecen a la derecha.
+
+Los tipos de letra son también diferentes en cada una de estas clases.
+
+**Fuentes**
+En este ejercicio se utilizará la regla-arroba @font-face, para enlazar las siguientes fuentes en nuestro propio ordenador:
+- Título: Ribeye Marrow
+- Citas en latín: Lobster
+- Citas en español: Just Another Hand
+
+
+<center>
+<img src="/Ejercicio_img/ejercicio12_texto.png" style="width:600px">
+</center>
+
+## Ejercicio 11:
+
+**Etiquetas**
+Las únicas etiquetas de bloque utilizadas son < h1>, < p> y < div>.
+
+**Clases**
+Cada cita tiene la letra inicial diferente al resto del párrafo. Se podría utilizar una etiqueta < span> con clase, pero puesto que se trata del primer carácter, se puede utilizar simplemente el pseudo-elemento ::first-letter, que no requiere añadir nada al código fuente html.
+
+**Posicionamiento**
+Los párrafos tienen forma cuadrada y tienen todos el mismo tamaño, independientemente
+del contenido, lo que se puede conseguir dando el mismo valor a las propiedades width y height.
+
+Las citas se muestran una al lado de la otra formando una trama rectangular. Además, al hacer zoom o al estrechar o ensanchar la ventana, el número de citas por fila se ajusta automáticamente. Eso se puede conseguir con posicionamiento flotante.
+
+Si el tamaño del párrafo es suficientemente grande, no es necesario definir la propiedad overflow, aunque por precaución se puede incluir en la hoja de estilo.
+
+Como no hay ningún elemento después de las citas, no hace falta utilizar la propiedad clear en ningún elemento.
+
+La letra inicial de cada párrafo (pseudo-elemento ::first-letter) tiene posicionamiento flotante.
+
+
+<center>
+<img src="/Ejercicio_img/ejercicio13_texto.png" style="width:600px">
+<img src="/Ejercicio_img/ejercicio14_texto.png" style="width:600px">
 </center>
