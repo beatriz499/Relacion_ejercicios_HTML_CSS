@@ -1,0 +1,72 @@
+body{
+    background-color: #F8F1CD;
+    font-family: sans-serif;
+}
+
+form{
+    font-size: 14px;
+    background-color: #D5DAE4;
+    color: #6B121B;
+    border: 1px dotted #B8BFCB;
+    border-radius: 7px;
+    padding: 14px;
+    /* Centrado horizontalmente*/
+}
+
+fieldset {
+    border: 1px dotted gray;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 0px 20px 0px 20px ;
+}
+
+legend {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+input {
+    background-color: white;
+    border-radius: 4px;
+    color: #264F96;
+    font-size: 16px;
+    padding: 3px 3px 3px 10px;
+    outline: none; /* (Esto permite que no se resalte el input al colocarnos en él) */
+}
+
+input:invalid {
+    box-shadow: 0px 0px 3px 2px #FF7F7F;
+}
+
+input[required] {
+    /*Sombra estilo halo con un difuminado de 3px de color #4AA248*/
+    border: #4AA248;
+    box-shadow: 0px 0px 3px 2px #4AA248;
+}
+
+#button_id {
+    padding: 6px 30px 6px 30px;
+    color: white;
+    background-color: #2A477A;
+    font-size: 14px;
+}
+
+#button_id:hover {
+        background-color: #5376B2;
+    }
+
+textarea {
+    width: 450px;
+    max-width: 493px;
+    min-width: 300px;
+    height: 50px;
+    max-height: 200px;
+    min-height: 50px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #264F96;
+    font-size: 16px;
+    padding: 3px 3px 3px 10px;
+}
+
