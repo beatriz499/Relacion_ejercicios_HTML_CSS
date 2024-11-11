@@ -3,6 +3,10 @@ body{
     font-family: sans-serif;
 }
 
+div {
+    flex: 1;
+}
+
 form{
     font-size: 14px;
     background-color: #D5DAE4;
