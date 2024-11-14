@@ -26,8 +26,14 @@ nav {
     font-size: small;
 }
 
-nav > p {
+nav > a {
+    color: white;
+    text-decoration: none;
     margin: 8px 20px 8px 20px;
+}
+
+nav > a:hover {
+    color: #ff602f;
 }
 
 div.body_content {
