@@ -301,3 +301,31 @@ La letra inicial de cada párrafo (pseudo-elemento ::first-letter) tiene posicio
 <img src="/Ejercicio_img/ejercicio13_texto.png" style="width:600px">
 <img src="/Ejercicio_img/ejercicio14_texto.png" style="width:600px">
 </center>
+
+## Ejercicio 12:
+Reproducir el siguiente formulario:
+<center>
+<img src="/Ejercicio_img/ejercicio15_texto.png" style="width:600px">
+<img src="/Ejercicio_img/ejercicio16_texto.png" style="width:600px">
+</center>
+
+## Ejercicio 13:
+De forma completamente autónoma reproduce con la mayor exactitud posible la siguiente estructura de una página web.
+
+La sección que se ve en la imagen corresponde con la pestaña “Inicio” del panel de navegación.
+
+En los recursos de la tarea tenéis la imagen que se adjunta más abajo para que podáis abrirla y analizarla con mayor detalle.
+<center>
+<img src="/Ejercicio_img/ejercicio17_texto.png" style="width:600px">
+
+</center>
+
+## Ejercicio 14:
+De forma completamente autónoma reproduce con la mayor exactitud posible la siguiente estructura de una página web.
+
+La sección que se ve en la imagen corresponde con la pestaña “Nosotros” del panel de navegación.
+
+En los recursos de la tarea tenéis la imagen que se adjunta más abajo para que podáis abrirla y analizarla con mayor detalle.
+<center>
+<img src="/Ejercicio_img/ejercicio18_texto.png" style="width:600px">
+</center>
