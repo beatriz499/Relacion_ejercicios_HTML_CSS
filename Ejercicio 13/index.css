@@ -36,7 +36,7 @@ nav > a:hover {
     color: #ff914d;
 }
 
-div.body_content {
+main {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
