@@ -1,3 +1,4 @@
+/* Estilos generales, body, header, nav */
 body{
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +38,8 @@ nav > a:hover {
     color: #ff914d;
 }
 
-div.body_inicio {
+/* Estilos main en inicio */
+main.body_inicio {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -64,7 +66,8 @@ div.body_inicio {
     margin: 10px;
 }
 
-div.body_nosotros{
+/* Estilos main en nosotros */
+main.body_nosotros {
     display:flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -75,7 +78,7 @@ div.body_nosotros{
     padding: 10px;
 }
 
-div.body_nosotros > div {
+main > div {
     width: 49%;
 }
 
@@ -89,6 +92,7 @@ audio {
     width: 100%;
 }
 
+/* Estilos del footer */
 footer{
     display: flex;
     flex-direction: row;
