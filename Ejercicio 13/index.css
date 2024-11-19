@@ -71,6 +71,9 @@ footer{
     background-color: #17293e;
     color: white;
     font-size: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 img {
